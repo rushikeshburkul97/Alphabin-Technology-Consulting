@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 26 17:10:46 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48248 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.POM_Test_Cases.LoginUserTC.verifyLoginPageFunctionality()'><b>verifyLoginPageFunctionality</b><br>Test class: org.POM_Test_Cases.LoginUserTC<br/>
+<a href="#Output-1330678198" onClick='toggleBox("Output-1330678198", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1330678198" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1330678198">
+clicked on sign in option<br/>
+Entered Username as:hrishikeshburkul51@gmail.com<br/>
+Entered Password as:<br/>
+clicked on sign in button<br/>
+Login Page Title Verified Successfully = Home Page<br/>
+Login Page URL Verified Successfully = https://magento.softwaretestingboard.com/<br/>
+user is loggedin successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>org.POM_Test_Cases.LoginUserTC@38d8f54a</td></tr>
+<tr>
+<td title='org.POM_Test_Cases.CreateNewUserTC.verifyCreateUserFunctionality()'><b>verifyCreateUserFunctionality</b><br>Test class: org.POM_Test_Cases.CreateNewUserTC<br/>
+<a href="#Output-1605627988" onClick='toggleBox("Output-1605627988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605627988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605627988">
+clicked on create account option successfully<br/>
+Entered First Name details successfully<br/>
+Entered Last Name details successfully<br/>
+Entered email address successfully<br/>
+Entered email address successfully<br/>
+Entered Password Credentials successfully<br/>
+clicked on create account button successfully<br/>
+My Account Page Title Verified Successfully = My Account<br/>
+My Account Page URL Verified Successfully = https://magento.softwaretestingboard.com/customer/account/<br/>
+New user Created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>org.POM_Test_Cases.CreateNewUserTC@409bf450</td></tr>
+<tr>
+<td title='org.POM_Test_Cases.PurchaseProductTC.verifyPurchaseProductFunctionality()'><b>verifyPurchaseProductFunctionality</b><br>Test class: org.POM_Test_Cases.PurchaseProductTC<br/>
+<a href="#Output-1020758093" onClick='toggleBox("Output-1020758093", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1020758093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1020758093">
+clicked on sign in option<br/>
+Entered Username as:hrishikeshburkul51@gmail.com<br/>
+Entered Password as:<br/>
+clicked on sign in button<br/>
+Print Receipt Hyperlink is Displayed Successfully<br/>
+Payment Page Title Verified Successfully = Success Page<br/>
+Payment Page URL Verified Successfully = https://magento.softwaretestingboard.com/checkout/onepage/success/<br/>
+an user is successfully placed a Purchase order<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>org.POM_Test_Cases.PurchaseProductTC@7e07db1f</td></tr>
+<tr>
+<td title='org.POM_Test_Cases.AddToCartTC.verifyAddToCartFunctionality()'><b>verifyAddToCartFunctionality</b><br>Test class: org.POM_Test_Cases.AddToCartTC<br/>
+<a href="#Output-302994816" onClick='toggleBox("Output-302994816", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-302994816" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-302994816">
+User Successfully clicked on sign in option<br/>
+Entered Username as: = hrishikeshburkul51@gmail.com<br/>
+Entered Password as:<br/>
+clicked on sign in button<br/>
+enter product name successfully as = hoodie<br/>
+User Successfully clicks on Search button<br/>
+User Successfully clicks on Add to Cart Element<br/>
+User Successfully clicks on size of Product Element<br/>
+User Successfully clicks on colour of Product Element<br/>
+User Successfully clicks on Add to Cart option<br/>
+User is Successfully Added a Product to Shooping Cart<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>org.POM_Test_Cases.AddToCartTC@3349e9bb</td></tr>
+</table><p>
+</body>
+</html>

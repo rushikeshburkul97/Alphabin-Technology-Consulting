@@ -1,0 +1,8 @@
+## Ignore the following folders and files as their names.
+
+src/main/java 
+  
+Inside Target folder of Project ignore following folders. 
+Generated-sources
+Generated-test-sources
+maven-status
