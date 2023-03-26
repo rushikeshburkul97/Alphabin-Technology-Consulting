@@ -27,7 +27,7 @@ You can download this project by two ways.
 2. By using git clone command you can download it in your system with workspace.
 
 ## Instructions to Execute test cases. 
-1. Download this project at your workspace. 
+1. Download this project at your workspace from MASTER Branch of Git-Hub Central Repo.
 2. Then Import it in eclipse using maven import.
 3. You can execute the test cases by using two ways. 
    1. Execute TestCase.java file through TestNG Test.
